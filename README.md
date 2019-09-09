@@ -22,10 +22,7 @@
 
 ### Instructions:<a name="instructions"></a>
 
-1. Go to project-app directory
-```
-cd project-app
-```
+1. Go to project-app directory `cd project-app`.
 
 2. Run the following commands to set up your database and model.
 
