@@ -2,12 +2,20 @@
 
 ### Table of Contents
 
-1. [Project overview](#overview)
+1. [Project summary](#summary)
+2. [Application overview](#overview)
 2. [Requirements](#requirements)
 6. [Instructions](#instructions)
 5. [Licensing and Acknowledgements](#licensing)
 
-### Project overview:<a name="overview"></a>
+### Project summary:<a name="summary"></a>
+
+The goal of this project is to analyze disaster data from [Figure Eight](https://www.figure-eight.com/) to build a model for an API that classifies disaster messages.
+In the Project Workspace, there is a data set containing real messages that were sent during disaster events. 
+The project is about creating a machine learning pipeline to categorize these events so that you can send the messages to an appropriate disaster relief agency.
+The project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app also displays visualizations of the data. 
+
+### Application overview:<a name="overview"></a>
 
 - `project-app` contains all python scripts, database and trained classifier,
 - `project-etl-ml` contains jupyter notebooks with all steps to process data and train models.
