@@ -40,7 +40,7 @@ def tokenize(text):
 
 def build_model():
     pipeline = Pipeline([
-        ('vect', CountVectorizer()),
+        ('vect', CountVectorizer(tokenizer = tokenize)),
         ('best', TruncatedSVD()),
         ('tfidf', TfidfTransformer()),
         ('clf', MultiOutputClassifier(AdaBoostClassifier()))
